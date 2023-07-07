@@ -1,0 +1,244 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Inicio del header */
+header{
+display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+background-image: url(../imagenes/titulo.jpeg) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    align-items: center;
+}
+
+.titulo-fluid{
+color: white;
+
+}
+/*fin de estilos del header*/
+
+/* Barra de navegacion */
+
+
+.nav-link {
+    font-weight: 600;
+
+}
+/*fin de estilos de navegacion*/
+
+
+.texto-principal{
+    background-color: rgb(204, 183, 183);
+    margin: 20px;
+    padding: 10px;
+    font-weight: 600;
+   
+}
+
+.ver-mas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+.contenedor-principal{
+    display: grid;
+    grid-template-columns:repeat(3, 300px);
+    grid-template-rows:repeat(3, auto);
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+
+.img-principal img {
+   width: 300px;
+   height: 300px;
+   /* padding: 10px; */
+   border: 1px solid;
+}
+.img-principal2 img {
+    width: 300px;
+    height: 300px;
+   /*  padding: 10px; */
+   border: 1px solid;
+ }
+
+ .img-principal3 img {
+    width: 300px;
+    height: 300px;
+   /*  padding: 10px; */
+   border: 1px solid;
+ }
+
+ .img-principal4 img {
+    width: 300px;
+    height: 300px;
+    /* padding: 10px; */
+    border: 1px solid;
+ }
+
+ .img-principal5 img {
+    width: 300px;
+    height: 300px;
+   /*  padding: 10px; */
+   border: 1px solid;
+ }
+
+ .img-principal6 img {
+    width: 300px;
+    height: 300px;
+    /* padding: 10px; */
+    border: 1px solid;
+ }
+
+ .img-principal7 img {
+    width: 300px;
+    height: 300px;
+   /*  padding: 10px; */
+   border: 1px solid;
+ }
+
+ .img-principal8 img {
+    width: 300px;
+    height: 300px;
+   /*  padding: 10px; */
+   border: 1px solid;
+ }
+
+.mapa{
+ 
+    width: 300px;
+    height: 300px;
+  }
+
+.info-extra{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+/*estilo del contacto*/
+
+.contacto{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.padre-contact{
+    box-shadow: 0 0 20px 0 rgb(8, 8, 8);
+    padding: 1em;
+}
+
+.contacto-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto-form form .bloque{
+    grid-column: 1/3;
+}
+
+.contacto-form form p{
+    margin: 0;
+    padding: 1em;
+}
+.contacto-form form button,
+.contacto-form form input,
+.contacto-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid;
+    
+}
+
+.contacto-form form button{
+    background-color: grey;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contacto-form form button:hover,
+.contacto-form form button:focus{
+    background-color: rgb(65, 62, 62);
+    outline: 0;
+    color: white;
+}
+
+.mas-contact h4,
+.mas-contact ul,
+.mas-contact p{
+    text-align: center;
+    padding: 0;
+}
+
+.mas-contact ul{
+    list-style: none;
+    padding: 0;
+}
+
+.mas-contact ul li{
+    padding: .3em;
+}
+
+@media (min-width: 768px) {
+    .padre-contact{
+        padding: 2em;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .mas-contact h4,
+    .mas-contact ul,
+    .mas-contact p{
+        padding: 1em;
+        text-align: left;
+    }
+}
+
+/* Estilos del footer*/
+
+footer{
+    background-color: rgb(196, 190, 183);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+.redes{
+    font-weight: 600;
+}
+
+.img-redes{
+   width: 40px;
+   height: 40px;
+   margin-left: 10px;
+}
+
