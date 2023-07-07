@@ -42,22 +42,6 @@ color: white;
 /*fin de estilos de navegacion*/
 
 
-.texto-principal{
-    background-color: rgb(204, 183, 183);
-    margin: 20px;
-    padding: 10px;
-    font-weight: 600;
-   
-}
-
-.ver-mas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-
-}
-
 .contenedor-principal{
     display: grid;
     grid-template-columns:repeat(3, 300px);
