@@ -42,62 +42,7 @@ color: white;
 /*fin de estilos de navegacion*/
 
 
-.contenedor-principal{
-    display: grid;
-    grid-template-columns:repeat(3, 300px);
-    grid-template-rows:repeat(3, auto);
-    justify-content: center;
-    row-gap: 15px;
-    column-gap: 15px;
-}
 
-
-.img-principal img {
-   width: 300px;
-   height: 300px;
-   border: 1px solid;
-}
-.img-principal2 img {
-    width: 300px;
-    height: 300px;
-   border: 1px solid;
- }
-
- .img-principal3 img {
-    width: 300px;
-    height: 300px;
-   border: 1px solid;
- }
-
- .img-principal4 img {
-    width: 300px;
-    height: 300px;
-    border: 1px solid;
- }
-
- .img-principal5 img {
-    width: 300px;
-    height: 300px;
-   border: 1px solid;
- }
-
- .img-principal6 img {
-    width: 300px;
-    height: 300px;
-    border: 1px solid;
- }
-
- .img-principal7 img {
-    width: 300px;
-    height: 300px;
-   border: 1px solid;
- }
-
- .img-principal8 img {
-    width: 300px;
-    height: 300px;
-   border: 1px solid;
- }
 
 .mapa{
  
