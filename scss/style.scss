@@ -1,5 +1,6 @@
 
 @import "partials/variables";
+@import "partials/mixins";
 
 
 *{
@@ -31,7 +32,7 @@ header.titulo-fluid{
         align-items: center;
         
 h1{
-    color: white;
+    color: $color-h1;
     font-size: 60px;
 }
 
@@ -59,8 +60,8 @@ h1{
     }
 
     .img-muestra{
-        width: 400px;
-        height: 400px;
+        width: $Anchoimg;
+        height: $Altoimg;
         padding: 10px;
     }
 
@@ -102,7 +103,7 @@ h1{
             button,
             input,
             textarea{
-                width: 100%;
+                width: $Anchomax;
                 padding: .7em;
                 border: none;
                 background: none;
