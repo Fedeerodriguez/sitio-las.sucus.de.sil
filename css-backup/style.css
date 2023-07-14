@@ -1,0 +1,164 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Inicio del header */
+header{
+display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+background-image: url(../imagenes/titulo.jpeg) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    align-items: center;
+}
+
+.titulo-fluid{
+color: white;
+
+}
+/*fin de estilos del header*/
+
+
+/* Estilos del main del index */
+.img-main{
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-main{
+    font-weight: 600;
+}
+
+.img-muestra{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+.info-extra{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+/*estilo del contacto*/
+
+.contacto{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.padre-contact{
+    box-shadow: 0 0 20px 0 rgb(8, 8, 8);
+    padding: 1em;
+}
+
+.contacto-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto-form form .bloque{
+    grid-column: 1/3;
+}
+
+.contacto-form form p{
+    margin: 0;
+    padding: 1em;
+}
+ button,
+ input,
+textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid;
+    
+}
+
+.contacto-form form button{
+    background-color: grey;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+ button:hover,
+ button:focus{
+background-color: rgb(65, 62, 62);
+outline: 0;
+color: white;
+}
+
+.mas-contact h4,
+.mas-contact ul,
+.mas-contact p{
+    text-align: center;
+    padding: 0;
+}
+
+.mas-contact ul{
+    list-style: none;
+    padding: 0;
+}
+
+.mas-contact ul li{
+    padding: .3em;
+}
+
+footer{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    height: 100%;
+    width: 100%;
+
+}
+.redes{
+    font-weight: 600;
+}
+
+.img-redes{
+   width: 40px;
+   height: 40px;
+   margin-left: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .padre-contact{
+        padding: 2em;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .mas-contact h4,
+    .mas-contact ul,
+    .mas-contact p{
+        padding: 1em;
+        text-align: left;
+    }
+}
+
+

@@ -1,0 +1,18 @@
+
+
+@media (min-width: 768px) {
+    .padre-contact{
+        padding: 2em;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+        .mas-contact h4,
+    .mas-contact ul,
+    .mas-contact p{
+        padding: 1em;
+        text-align: left;
+    }
+    }
+
+    
+}
