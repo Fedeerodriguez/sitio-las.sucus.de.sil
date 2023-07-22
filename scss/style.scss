@@ -1,7 +1,7 @@
 
 @import "partials/variables";
 @import "partials/mixins";
-
+@import "partials/extend";
 
 *{
     box-sizing: border-box;
@@ -157,6 +157,23 @@ footer{
      }
 
 }
+
+section{
+    .img-nos{
+        width: 800px;
+        height: auto;
+        padding: 15px;
+    
+    }
+
+    .title-nos{
+        padding-top:25px;
+        padding-left: 40px;
+    }
+}
+
+
+
 
 
 

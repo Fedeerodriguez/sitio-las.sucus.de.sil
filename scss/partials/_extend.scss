@@ -1,3 +1,7 @@
-.padre-contact-{
-
+.texto-nos{
+    @extend .texto-main;
+        font-weight:$fontweightestandar;
+        padding: 10px;
+    
 }
+

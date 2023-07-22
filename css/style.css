@@ -1,3 +1,8 @@
+.texto-nos {
+  font-weight: 600;
+  padding: 10px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -40,7 +45,7 @@ section .img-main {
   justify-content: center;
   align-items: center;
 }
-section .texto-main {
+section .texto-main, section .texto-nos {
   font-weight: 600;
 }
 section .img-muestra {
@@ -125,6 +130,16 @@ footer .img-redes {
   width: 40px;
   height: 40px;
   margin-left: 10px;
+}
+
+section .img-nos {
+  width: 800px;
+  height: auto;
+  padding: 15px;
+}
+section .title-nos {
+  padding-top: 25px;
+  padding-left: 40px;
 }
 
 @media (min-width: 768px) {
