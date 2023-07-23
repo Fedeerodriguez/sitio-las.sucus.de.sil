@@ -137,9 +137,13 @@ section .img-nos {
   height: auto;
   padding: 15px;
 }
-section .title-nos {
+section .title-h2 {
   padding-top: 25px;
   padding-left: 40px;
+}
+
+.card-centros {
+  padding: 30px;
 }
 
 @media (min-width: 768px) {

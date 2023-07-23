@@ -21,15 +21,7 @@ a{
 /* Inicio de estilos del header */
 
 header.titulo-fluid{
-    display: flex;
-        justify-content: center;
-        width: $Anchomax;
-        height: 350px;
-    background-image: url(../imagenes/titulo.jpeg) ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-        align-items: center;
+    @include estiloheader;
         
 h1{
     color: $color-h1;
@@ -166,13 +158,15 @@ section{
     
     }
 
-    .title-nos{
-        padding-top:25px;
-        padding-left: 40px;
+    .title-h2{
+        @include paddingh2(25px , 40px);
+
     }
 }
 
-
+.card-centros{
+   @include elpadding(30px);
+}
 
 
 

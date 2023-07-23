@@ -1,2 +1,20 @@
+@mixin estiloheader{
+    display: flex;
+        justify-content: center;
+        width: $Anchomax;
+        height: 350px;
+    background-image: url(../imagenes/titulo.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        align-items: center;
+}
 
+@mixin elpadding($padding){
+    padding: $padding;
+}
 
+@mixin paddingh2($padding1 , $padding2){
+    padding-top: $padding1;
+    padding-left: $padding2;
+}
