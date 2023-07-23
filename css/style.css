@@ -1,6 +1,19 @@
 .texto-nos {
   font-weight: 600;
   padding: 10px;
+  padding-left: 40px;
+}
+
+.texto-plantas {
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.texto-centros {
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 40px;
 }
 
 * {
@@ -45,19 +58,26 @@ section .img-main {
   justify-content: center;
   align-items: center;
 }
-section .texto-main, section .texto-nos {
+section .texto-main, section .texto-nos, section .texto-plantas, section .texto-centros {
   font-weight: 600;
+  padding-top: 30px;
 }
 section .img-muestra {
   width: 400px;
   height: 400px;
   padding: 10px;
 }
+section .img-muestra:hover {
+  transform: scale(1.03, 1.03);
+  transition: 1s;
+}
 section .info-extra {
   display: flex;
   justify-content: center;
   font-weight: 600;
   margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* Fin de los estilos del index */
@@ -137,6 +157,10 @@ section .img-nos {
   height: auto;
   padding: 15px;
 }
+section .img-nos:hover {
+  transform: scale(1.03, 1.03);
+  transition: 1s;
+}
 section .title-h2 {
   padding-top: 25px;
   padding-left: 40px;
@@ -144,6 +168,10 @@ section .title-h2 {
 
 .card-centros {
   padding: 30px;
+}
+.card-centros:hover {
+  transform: scale(1.03, 1.03);
+  transition: 1s;
 }
 
 @media (min-width: 768px) {

@@ -49,12 +49,17 @@ h1{
 
     .texto-main{
         font-weight: $fontweightestandar;
+        padding-top: 30px;
     }
 
     .img-muestra{
         width: $Anchoimg;
         height: $Altoimg;
         padding: 10px;
+        &:hover{
+            transform: scale(1.03,1.03);
+            transition: 1s;
+        }
     }
 
     .info-extra{
@@ -62,6 +67,8 @@ h1{
         justify-content: center;
         font-weight: $fontweightestandar;
         margin-bottom: 10px;
+        padding-bottom:20px ;
+        padding-top: 20px;
     
     }
 
@@ -155,6 +162,10 @@ section{
         width: 800px;
         height: auto;
         padding: 15px;
+        &:hover{
+            transform: scale(1.03,1.03);
+            transition: 1s;
+        }
     
     }
 
@@ -165,8 +176,14 @@ section{
 }
 
 .card-centros{
-   @include elpadding(30px);
+    @include elpadding(30px);
+    &:hover{
+        transform: scale(1.03,1.03);
+        transition: 1s;
+    }
 }
+   
+ 
 
 
 

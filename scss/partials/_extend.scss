@@ -2,7 +2,20 @@
     @extend .texto-main;
         font-weight:$fontweightestandar;
         padding: 10px;
+        padding-left: 40px;
     
 }
 
+.texto-plantas{
+    @extend .texto-main;
+    font-weight:$fontweightestandar;
+    padding: 10px;
+    padding-left: 40px;
+}
 
+.texto-centros{
+    @extend .texto-main;
+    font-weight:$fontweightestandar;
+    padding: 10px;
+    padding-left: 40px;
+}
