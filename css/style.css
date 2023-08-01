@@ -2,18 +2,21 @@
   font-weight: 600;
   padding: 10px;
   padding-left: 40px;
+  font-size: 16px;
 }
 
 .texto-plantas {
   font-weight: 600;
   padding: 10px;
   padding-left: 40px;
+  font-size: 16px;
 }
 
 .texto-centros {
   font-weight: 600;
   padding: 10px;
   padding-left: 40px;
+  font-size: 16px;
 }
 
 * {
@@ -61,6 +64,7 @@ section .img-main {
 section .texto-main, section .texto-nos, section .texto-plantas, section .texto-centros {
   font-weight: 600;
   padding-top: 30px;
+  font-size: 16px;
 }
 section .img-muestra {
   width: 400px;
@@ -78,6 +82,7 @@ section .info-extra {
   margin-bottom: 10px;
   padding-bottom: 20px;
   padding-top: 20px;
+  font-size: 16px;
 }
 
 /* Fin de los estilos del index */
