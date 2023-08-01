@@ -50,7 +50,7 @@ header.titulo-fluid {
 header.titulo-fluid h1 {
   color: rgb(253, 251, 251);
   font-size: 60px;
-  font-family: fantasy;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 /*fin de estilos del header*/
