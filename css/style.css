@@ -48,11 +48,21 @@ header.titulo-fluid {
   align-items: center;
 }
 header.titulo-fluid h1 {
-  color: white;
+  color: rgb(253, 251, 251);
   font-size: 60px;
+  font-family: fantasy;
 }
 
 /*fin de estilos del header*/
+nav .logo {
+  margin-left: 30px;
+}
+nav .navegacion {
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+}
+
 /* Estilos del main del index */
 section .img-main {
   width: 600px;

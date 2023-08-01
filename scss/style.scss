@@ -26,12 +26,22 @@ header.titulo-fluid{
 h1{
     color: $color-h1;
     font-size: 60px;
+    font-family: fantasy;
 }
 
  }
 
  /*fin de estilos del header*/
-
+nav{
+    .logo{
+        margin-left: 30px;
+    }
+    .navegacion{
+        font-weight: 600;
+        color: white;
+        font-size: 18px;
+    }
+}
 
 
 
