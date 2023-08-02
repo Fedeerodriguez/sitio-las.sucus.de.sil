@@ -189,10 +189,14 @@ section{
 }
 
 .card-centros{
+    
     @include elpadding(30px);
     &:hover{
         transform: scale(1.03,1.03);
         transition: 1s;
+    }
+    .m-card{
+        margin:auto;
     }
 }
    

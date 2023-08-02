@@ -188,6 +188,9 @@ section .title-h2 {
   transform: scale(1.03, 1.03);
   transition: 1s;
 }
+.card-centros .m-card {
+  margin: auto;
+}
 
 @media (min-width: 768px) {
   .padre-contact {
